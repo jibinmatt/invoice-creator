@@ -93,6 +93,7 @@ h5 {
 .list {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-self: center;
 
     text-align: center;
@@ -107,6 +108,7 @@ ul {
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
+    padding: 0px;
 
     text-align: left;
 
@@ -114,7 +116,7 @@ ul {
 }
 
 .empty {
-    width: 45%;
+    width: 35%;
 }
 
 .empty-space {
@@ -141,8 +143,6 @@ hr {
     flex-direction: row;
     justify-content: space-around;
     align-self: center;
-
-    width: 110%;
 }
 
 #notes {
@@ -177,7 +177,7 @@ hr {
     align-self: center;
 
     width: 100%;
-    height: 60px;
+    height: 80px;
 }
 
 #invoice-btn {display: flex;
